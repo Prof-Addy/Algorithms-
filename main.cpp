@@ -138,7 +138,7 @@ void heapSort(vector<int>&array, int size)
 
 
 int main() {
-    size_t array_size[] = {5, 10, 20, 30, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000};
+    size_t array_size[] = {100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000};
 
     std::random_device random_number;
     std::mt19937_64 gen(random_number());
